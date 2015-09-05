@@ -17,7 +17,6 @@
         <ImageView android:id="@+id/carThumbnailView"
                    android:layout_width="170dp"
                    android:layout_height="100dp"
-                   android:src="@drawable/default128"
                    android:scaleType="fitXY"
                    android:drawingCacheQuality="auto"
                    android:layout_marginRight="10dp"/>
