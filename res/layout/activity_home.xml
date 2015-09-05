@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical"
+              android:background="@android:color/white"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <EditText android:id="@+id/searchTextView"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:textColorHint="@android:color/darker_gray"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="20dp"
+              android:background="@drawable/textborder"
+              android:inputType="textAutoComplete|textAutoCorrect"
+              android:textColor="@android:color/black"
+              android:drawableRight="@drawable/search32"
+              android:hint="Search cars ( by name , brand , type )"
+              android:onClick="searchCars"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="1.2dp"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:background="@drawable/line">
+
+    </LinearLayout>
+
+    <ListView android:id="@+id/carListView"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="15dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:divider="#b5b5b5"
+              android:dividerHeight="1dp">
+    </ListView>
+
+
+</LinearLayout>
+

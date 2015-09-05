@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@android:color/white"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="match_parent">
+
+        <ImageView android:id="@+id/carThumbnailView"
+                   android:layout_width="170dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/default128"
+                   android:scaleType="fitXY"
+                   android:drawingCacheQuality="auto"
+                   android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView android:id="@+id/carNameView"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="car name"
+                      android:textStyle="bold"
+                      android:textColor="@android:color/black"
+                      android:textSize="18dp"/>
+
+            <TextView android:id="@+id/carDescriptionView"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textColor="@android:color/black"
+                      android:textSize="14dp"
+                      android:text="car description"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
